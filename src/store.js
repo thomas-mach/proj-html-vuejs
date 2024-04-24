@@ -56,6 +56,28 @@ export const store = reactive({
             ]
         },
     ],
+    footerComponents: [
+        {
+            title: 'Explore',
+            items: [
+                { item: 'Start here' },
+                { item: 'Blog' },
+                { item: 'About us' },
+                { item: 'Success story' },
+                { item: 'Courses' },
+                { item: 'Contact us' },
+            ]
+        },
+        {
+            title: 'Information',
+            items: [
+                { item: 'Membership' },
+                { item: 'Purchase guide' },
+                { item: 'Privacy Policy' },
+                { item: 'Teams of service' },
+            ]
+        }
+    ]
 
 
 })

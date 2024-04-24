@@ -6,6 +6,7 @@
 
 img {
     max-width: 100%;
+    display: block;
 }
 
 a {
@@ -17,13 +18,4 @@ menu,
 ul,
 ol {
     list-style: none;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-
-body {
-    font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
 }

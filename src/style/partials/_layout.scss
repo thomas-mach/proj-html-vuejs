@@ -1,0 +1,44 @@
+:root {
+    --color-brand: #20AD96;
+    --color-text: #696969;
+    --color-text-sm: #8C89A2;
+    --color-background: #F8F8F8;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+.container-sm {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.col-4 {
+    width: calc(4 * 100% / 12);
+}
+
+.col-6 {
+    width: calc(6 * 100% / 12);
+}
+
+.col-8 {
+    width: calc(8 * 100% / 12);
+}
+
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');

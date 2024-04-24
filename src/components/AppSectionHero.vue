@@ -15,7 +15,6 @@
             </button>
         </div>
     </section>
-
 </template>
 
 <script>
@@ -29,8 +28,6 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
-    max-width: 1920px;
     position: relative;
     margin-bottom: 180px;
 }
@@ -46,6 +43,7 @@ export default {
 h1 {
     font-size: 50px;
     margin-bottom: 30px;
+    font-weight: 300;
 }
 
 h3 {
@@ -57,7 +55,7 @@ h3 {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    color: #20AD96;
+    color: var(--color-brand);
     width: 278px;
     height: 52px;
     border: none;
@@ -69,7 +67,7 @@ h3 {
 
 .button:hover {
     color: white;
-    background-color: #20AD96;
+    background-color: var(--color-brand);
 }
 
 .sideNav {
